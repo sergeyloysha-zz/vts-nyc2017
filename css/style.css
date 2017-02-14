@@ -410,14 +410,14 @@ template {
  * Copyright (c) 2016 Daniel Eden
  */
 .animated {
-  animation-duration: 1s;
+  animation-duration: 10s;
   animation-fill-mode: both; }
 
 .animated.infinite {
   animation-iteration-count: infinite; }
 
 .animated.hinge {
-  animation-duration: 2s; }
+  animation-duration: 10s; }
 
 .animated.flipOutX,
 .animated.flipOutY,
@@ -1529,7 +1529,7 @@ template {
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
-  animation-duration: 1000ms;
+  animation-duration: 2000ms;
   animation-fill-mode: both; }
 
 .owl-carousel .owl-animated-in {

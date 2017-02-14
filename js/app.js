@@ -13,10 +13,11 @@
     items: 1,
     margin: 0,
     stagePadding: 0,
-    smartSpeed: 15000,
     autoplay: true,
     loop: true,
     mouseDrag:false,
     touchDrag: false,
+      autoplay: true,
+      autoplayTimeout: 10000,
   });
 });
