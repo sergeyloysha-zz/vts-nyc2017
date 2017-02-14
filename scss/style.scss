@@ -85,6 +85,8 @@ body {
     }
 
     &-save {
+      font-family: Lato;
+      font-weight: 700;
       position: absolute;
       top: 1rem;
       left: 1rem;
@@ -160,6 +162,10 @@ body {
     }
 
     &-dates {
+      position: absolute;
+      top: calc(100% - 24% - 9rem);
+      left: 0;
+      right: 0;
       margin-top: 4rem;
       font-size: 1.8rem;
       color: #FFFFFF;
@@ -167,9 +173,9 @@ body {
       text-align: center;
 
       @media screen and (min-width: $mobile) {
-        margin-top: 8rem;
         font-size: 2.2rem;
         line-height: 3.6rem;
+        top: calc(100% - 23% - 9rem);
       }
     }
 
@@ -226,6 +232,7 @@ body {
       @media screen and (min-width: $mobile) {
         padding: 3rem 0 0 5rem;
         max-width: 30rem;
+        top: 50%;
         right: 10rem;
         bottom: 9rem;
       }
@@ -239,6 +246,8 @@ body {
       }
 
       p {
+        font-family: Lato;
+        font-weight: 400;
         font-size: 1.6rem;
         color: #fff;
         line-height: 2.8rem;
@@ -311,6 +320,7 @@ body {
 
     &_1 {
       background-image: url('../images/vts-slide-1.jpg');
+      background-position: 0 -145px;
     }
 
     &_2 {
@@ -342,5 +352,43 @@ body {
 
   &:hover {
     opacity: .7;
+  }
+}
+
+#banner {
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position: absolute;
+}
+
+#banner > div {
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position: absolute;
+}
+
+#banner > div:nth-child(5) {
+  -webkit-animation: wipe 6s infinite;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-direction: alternate;
+  -webkit-mask-size: 2000px 2000px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom,
+          color-stop(0.00,  rgba(0,0,0,1)),
+          color-stop(0.45,  rgba(0,0,0,1)),
+          color-stop(0.50,  rgba(0,0,0,0)),
+          color-stop(0.55,  rgba(0,0,0,0)),
+          color-stop(1.00,  rgba(0,0,0,0)));
+}
+
+@keyframes wipe {
+  0% {
+    -webkit-mask-position: 0 0;
+  }
+  100% {
+    -webkit-mask-position: -1000px -1000px;
   }
 }

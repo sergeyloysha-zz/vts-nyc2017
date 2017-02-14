@@ -10,13 +10,13 @@
   $('.vts-slider').owlCarousel({
     animateOut: 'fadeOutLeft',
     animateIn: 'fadeInRight',
-    items:1,
-    margin:0,
-    stagePadding:0,
-    smartSpeed:7000,
+    items: 1,
+    margin: 0,
+    stagePadding: 0,
+    smartSpeed: 9000,
     autoplay: true,
     loop: true,
-                               mouseDrag:false,
-                               touchDrag: false,
+    mouseDrag:false,
+    touchDrag: false,
   });
 });

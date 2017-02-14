@@ -1737,6 +1737,8 @@ body {
         width: 50%;
         height: 100%; } }
     .vts__hero-save {
+      font-family: Lato;
+      font-weight: 700;
       position: absolute;
       top: 1rem;
       left: 1rem;
@@ -1797,6 +1799,10 @@ body {
           width: 398px;
           height: 230px; } }
     .vts__hero-dates {
+      position: absolute;
+      top: calc(100% - 24% - 9rem);
+      left: 0;
+      right: 0;
       margin-top: 4rem;
       font-size: 1.8rem;
       color: #FFFFFF;
@@ -1804,9 +1810,9 @@ body {
       text-align: center; }
       @media screen and (min-width: 940px) {
         .vts__hero-dates {
-          margin-top: 8rem;
           font-size: 2.2rem;
-          line-height: 3.6rem; } }
+          line-height: 3.6rem;
+          top: calc(100% - 23% - 9rem); } }
     .vts__hero-button {
       position: absolute;
       bottom: 9rem;
@@ -1850,6 +1856,7 @@ body {
         .vts__info-content {
           padding: 3rem 0 0 5rem;
           max-width: 30rem;
+          top: 50%;
           right: 10rem;
           bottom: 9rem; } }
       .vts__info-content h1 {
@@ -1859,6 +1866,8 @@ body {
         margin: 0 0 1rem 0;
         font-weight: 700; }
       .vts__info-content p {
+        font-family: Lato;
+        font-weight: 400;
         font-size: 1.6rem;
         color: #fff;
         line-height: 2.8rem;
@@ -1911,7 +1920,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover; }
     .vts-slider__item_1 {
-      background-image: url("../images/vts-slide-1.jpg"); }
+      background-image: url("../images/vts-slide-1.jpg");
+      background-position: 0 -145px; }
     .vts-slider__item_2 {
       background-image: url("../images/vts-slide-2.jpg"); }
     .vts-slider__item_3 {
@@ -1931,3 +1941,30 @@ body {
   transition: opacity 0.25s; }
   .vts-logo:hover {
     opacity: .7; }
+
+#banner {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute; }
+
+#banner > div {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute; }
+
+#banner > div:nth-child(5) {
+  -webkit-animation: wipe 6s infinite;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-direction: alternate;
+  -webkit-mask-size: 2000px 2000px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, black), color-stop(0.45, black), color-stop(0.5, transparent), color-stop(0.55, transparent), color-stop(1, transparent)); }
+
+@keyframes wipe {
+  0% {
+    -webkit-mask-position: 0 0; }
+  100% {
+    -webkit-mask-position: -1000px -1000px; } }
