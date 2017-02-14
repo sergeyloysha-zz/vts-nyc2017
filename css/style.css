@@ -1730,7 +1730,8 @@ body {
     position: relative;
     width: 100%;
     height: 60rem;
-    background: #2A7AE9; }
+    background: #2A7AE9;
+    overflow: hidden; }
     @media screen and (min-width: 940px) {
       .vts__hero {
         width: 50%;
