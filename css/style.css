@@ -1922,25 +1922,50 @@ body {
     background-position: center;
     background-repeat: no-repeat; }
     .vts-slider__item_1 {
-      width: 1200px;
-      height: 1341px;
-      background-image: url("../images/vts-slide-1.jpg"); }
+      width: 1300px;
+      height: 1100px;
+      background-image: url("../images/vts-slide-1-small.jpg"); }
+      @media screen and (min-width: 2000px) {
+        .vts-slider__item_1 {
+          width: 2400px;
+          height: 1800px;
+          background-image: url("../images/vts-slide-1.jpg"); } }
     .vts-slider__item_2 {
       width: 1030px;
       height: 1400px;
-      background-image: url("../images/vts-slide-2.jpg"); }
+      background-image: url("../images/vts-slide-2-small.jpg"); }
+      @media screen and (min-width: 2000px) {
+        .vts-slider__item_2 {
+          width: 2400px;
+          height: 1800px;
+          background-image: url("../images/vts-slide-2.jpg"); } }
     .vts-slider__item_3 {
       width: 1500px;
       height: 1200px;
-      background-image: url("../images/vts-slide-3.jpg"); }
+      background-image: url("../images/vts-slide-3-small.jpg"); }
+      @media screen and (min-width: 2000px) {
+        .vts-slider__item_3 {
+          width: 2400px;
+          height: 1800px;
+          background-image: url("../images/vts-slide-3.jpg"); } }
     .vts-slider__item_4 {
       width: 1500px;
       height: 1200px;
-      background-image: url("../images/vts-slide-4.jpg"); }
+      background-image: url("../images/vts-slide-4-small.jpg"); }
+      @media screen and (min-width: 2000px) {
+        .vts-slider__item_4 {
+          width: 2400px;
+          height: 1800px;
+          background-image: url("../images/vts-slide-4.jpg"); } }
     .vts-slider__item_5 {
       width: 1300px;
       height: 1200px;
-      background-image: url("../images/vts-slide-5.jpg"); }
+      background-image: url("../images/vts-slide-5-small.jpg"); }
+      @media screen and (min-width: 2000px) {
+        .vts-slider__item_5 {
+          width: 2400px;
+          height: 1800px;
+          background-image: url("../images/vts-slide-5.jpg"); } }
 
 .vts-logo {
   width: 30px;
