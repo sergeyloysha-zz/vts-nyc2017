@@ -8,8 +8,8 @@
 
 ;$(function() {
   $('.vts-slider').owlCarousel({
-    animateOut: 'fadeOutLeft',
-    animateIn: 'fadeInRight',
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
     items: 1,
     margin: 0,
     stagePadding: 0,
