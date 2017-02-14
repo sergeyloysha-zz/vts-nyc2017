@@ -1925,7 +1925,7 @@ body {
       width: 1300px;
       height: 1100px;
       background-image: url("../images/vts-slide-1-small.jpg"); }
-      @media screen and (min-width: 2000px) {
+      @media screen and (min-height: 1201px) and (min-width: 1921px) {
         .vts-slider__item_1 {
           width: 2400px;
           height: 1800px;
@@ -1934,7 +1934,7 @@ body {
       width: 1030px;
       height: 1400px;
       background-image: url("../images/vts-slide-2-small.jpg"); }
-      @media screen and (min-width: 2000px) {
+      @media screen and (min-height: 1201px) and (min-width: 1921px) {
         .vts-slider__item_2 {
           width: 2400px;
           height: 1800px;
@@ -1943,7 +1943,7 @@ body {
       width: 1500px;
       height: 1200px;
       background-image: url("../images/vts-slide-3-small.jpg"); }
-      @media screen and (min-width: 2000px) {
+      @media screen and (min-height: 1201px) and (min-width: 1921px) {
         .vts-slider__item_3 {
           width: 2400px;
           height: 1800px;
@@ -1952,7 +1952,7 @@ body {
       width: 1500px;
       height: 1200px;
       background-image: url("../images/vts-slide-4-small.jpg"); }
-      @media screen and (min-width: 2000px) {
+      @media screen and (min-height: 1201px) and (min-width: 1921px) {
         .vts-slider__item_4 {
           width: 2400px;
           height: 1800px;
@@ -1961,7 +1961,7 @@ body {
       width: 1300px;
       height: 1200px;
       background-image: url("../images/vts-slide-5-small.jpg"); }
-      @media screen and (min-width: 2000px) {
+      @media screen and (min-height: 1201px) and (min-width: 1921px) {
         .vts-slider__item_5 {
           width: 2400px;
           height: 1800px;
