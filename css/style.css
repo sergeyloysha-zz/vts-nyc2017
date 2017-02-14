@@ -1926,14 +1926,20 @@ body {
       height: 1341px;
       background-image: url("../images/vts-slide-1.jpg"); }
     .vts-slider__item_2 {
+      width: 1030px;
+      height: 1400px;
       background-image: url("../images/vts-slide-2.jpg"); }
     .vts-slider__item_3 {
-      width: 600px;
-      height: 800px;
+      width: 1500px;
+      height: 1200px;
       background-image: url("../images/vts-slide-3.jpg"); }
     .vts-slider__item_4 {
+      width: 1500px;
+      height: 1200px;
       background-image: url("../images/vts-slide-4.jpg"); }
     .vts-slider__item_5 {
+      width: 1300px;
+      height: 1200px;
       background-image: url("../images/vts-slide-5.jpg"); }
 
 .vts-logo {
