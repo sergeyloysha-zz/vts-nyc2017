@@ -1853,7 +1853,7 @@ body {
         color: #fff;
         line-height: 3.2rem;
         margin: 0 0 1rem 0;
-        font-weight: 400; }
+        font-weight: 700; }
       .vts__info-content p {
         font-size: 1.6rem;
         color: #fff;
@@ -1881,6 +1881,7 @@ body {
 .vts-btn {
   display: inline-block;
   width: 20rem;
+  font-weight: 700;
   font-size: 1.8rem;
   line-height: 2rem;
   color: #fff;
