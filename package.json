@@ -1,0 +1,27 @@
+{
+  "name": "cerius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyloysha/cerius-home.git"
+  },
+  "author": "sergeyloysha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeyloysha/cerius-home/issues"
+  },
+  "homepage": "https://github.com/sergeyloysha/cerius-home#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2"
+  }
+}

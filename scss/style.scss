@@ -1,0 +1,319 @@
+@import "normalize";
+@import "animate";
+@import "carousel";
+
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: url('../fonts/GlacialIndifference-Bold.otf') format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: url('../fonts/GlacialIndifference-Regular.otf') format("opentype");
+  font-weight: 400;
+}
+
+$timing: .25s;
+
+$color-blue: #2A7AE9;
+$color-red: #FF514E;
+
+$mobile: 940px;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+*:active {
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+::-moz-selection {
+  background: rgba(68,136,255,0.05);
+}
+::selection {
+  background: rgba(68,136,255,0.05);
+}
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background: #fff;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  @media screen and (min-width: $mobile) {
+    min-height: 700px;
+  }
+}
+
+body {
+  font: 400 1.4rem/1.4 "GlacialIndifference", Arial, sans-serif;
+
+  @media screen and (min-width: $mobile) {
+    height: 100%;
+  }
+}
+
+.vts {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: $mobile) {
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+  }
+
+  &__hero {
+    position: relative;
+    width: 100%;
+    height: 60rem;
+    background: $color-blue;
+
+    @media screen and (min-width: $mobile) {
+      width: 50%;
+      height: 100%;
+    }
+
+    &-corner-1 {
+      position: absolute;
+      top: -5rem;
+      left: -5rem;
+      width: 201px;
+      height: 352px;
+      background-image: url('../images/hero-corner-1.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+
+      transition: top $timing, left $timing;
+
+      @media screen and (min-width: $mobile) {
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &-corner-2 {
+      position: absolute;
+      bottom: -3rem;
+      right: -3rem;
+      width: 149px;
+      height: 259px;
+      background-image: url('../images/hero-corner-2.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+
+      transition: bottom $timing, right $timing;
+
+      @media screen and (min-width: $mobile) {
+        bottom: 0;
+        right: 0;
+      }
+    }
+
+    &-main {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &-logo {
+      width: 279px;
+      height: 161px;
+      background-image: url('../images/hero-logo.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin: 0 auto;
+
+      @media screen and (min-width: $mobile) {
+        width: 398px;
+        height: 230px;
+      }
+    }
+
+    &-dates {
+      margin-top: 4rem;
+      font-size: 2.2rem;
+      color: #FFFFFF;
+      line-height: 3.6rem;
+      text-align: center;
+
+      @media screen and (min-width: $mobile) {
+        margin-top: 8rem;
+      }
+    }
+
+    &-button {
+      position: absolute;
+      bottom: 9rem;
+      left: 0;
+      right: 0;
+      z-index: 3;
+      text-align: center;
+    }
+  }
+
+  &__info {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+
+    @media screen and (min-width: $mobile) {
+      width: 50%;
+      height: 100%;
+    }
+
+    &-border-right {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 10rem;
+      background: $color-blue;
+      z-index: 2;
+    }
+
+    &-border-bottom {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 9rem;
+      background: $color-blue;
+      z-index: 2;
+    }
+
+    &-content {
+      position: absolute;
+      max-width: 30rem;
+      bottom: 9rem;
+      right: 10rem;
+      background: $color-blue;
+      padding: 3rem 0 0 5rem;
+      z-index: 2;
+
+      h1 {
+        font-size: 2.2rem;
+        color: #fff;
+        line-height: 3.2rem;
+        margin: 0 0 1rem 0;
+        font-weight: 400;
+      }
+
+      p {
+        font-size: 1.6rem;
+        color: #fff;
+        line-height: 2.8rem;
+        margin: 0;
+      }
+    }
+
+    &-corner {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 160px;
+      height: 160px;
+      background-image: url('../images/info-corner.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      z-index: 3;
+    }
+
+    &-logo {
+      position: absolute;
+      bottom: 3rem;
+      right: 3rem;
+    }
+
+  }
+
+  &__corners {
+    position: relative;
+    z-index: 1;
+
+  }
+}
+
+.vts-btn {
+  display: inline-block;
+  width: 20rem;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  color: #fff;
+  padding: 1.4rem 2rem;
+  text-align: center;
+  background: $color-red;
+  text-decoration: none;
+  transition: background $timing;
+
+  &:hover {
+    background: #F44744;
+  }
+
+  &:active {
+    background: $color-red;
+  }
+}
+
+.vts-slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  &__item {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &_1 {
+      background-image: url('../images/vts-slide-1.jpg');
+    }
+
+    &_2 {
+      background-image: url('../images/vts-slide-2.jpg');
+    }
+
+    &_3 {
+      background-image: url('../images/vts-slide-3.jpg');
+    }
+
+    &_4 {
+      background-image: url('../images/vts-slide-4.jpg');
+    }
+
+    &_5 {
+      background-image: url('../images/vts-slide-5.jpg');
+    }
+  }
+}
+
+.vts-logo {
+  width: 30px;
+  height: 32px;
+  background-image: url('../images/vts-logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 32px;
+  transition: opacity $timing;
+
+  &:hover {
+    opacity: .7;
+  }
+}
