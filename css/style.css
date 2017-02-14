@@ -1738,12 +1738,16 @@ body {
         height: 100%; } }
     .vts__hero-save {
       position: absolute;
-      top: 2rem;
-      left: 3rem;
-      font-size: 1.6rem;
+      top: 1rem;
+      left: 1rem;
+      font-size: 1.4rem;
       color: #fff;
-      line-height: 3.2rem;
       z-index: 4; }
+      @media screen and (min-width: 940px) {
+        .vts__hero-save {
+          top: 2rem;
+          left: 3rem;
+          font-size: 1.6rem; } }
     .vts__hero-corner-1 {
       position: absolute;
       top: -5rem;

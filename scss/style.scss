@@ -86,12 +86,17 @@ body {
 
     &-save {
       position: absolute;
-      top: 2rem;
-      left: 3rem;
-      font-size: 1.6rem;
+      top: 1rem;
+      left: 1rem;
+      font-size: 1.4rem;
       color: #fff;
-      line-height: 3.2rem;
       z-index: 4;
+
+      @media screen and (min-width: $mobile) {
+        top: 2rem;
+        left: 3rem;
+        font-size: 1.6rem;
+      }
     }
 
     &-corner-1 {
