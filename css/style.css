@@ -1823,7 +1823,8 @@ body {
   .vts__info {
     position: relative;
     width: 100%;
-    height: 60rem; }
+    height: 60rem;
+    overflow: hidden; }
     @media screen and (min-width: 940px) {
       .vts__info {
         width: 50%;
@@ -1851,7 +1852,7 @@ body {
       bottom: 0;
       background: #2A7AE9;
       padding: 3rem 5rem 15rem 3rem;
-      z-index: 2; }
+      z-index: 4; }
       @media screen and (min-width: 940px) {
         .vts__info-content {
           padding: 3rem 0 0 5rem;
@@ -1887,6 +1888,18 @@ body {
       position: absolute;
       bottom: 3rem;
       right: 3rem; }
+    @media screen and (max-width: 940px) {
+      .vts__info-corner-mobile {
+        position: absolute;
+        top: 0;
+        right: -1.6rem;
+        width: 340px;
+        height: 380px;
+        background-image: url("../images/info-corner-mobile.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: 3; } }
   .vts__corners {
     position: relative;
     z-index: 1; }
