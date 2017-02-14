@@ -13,7 +13,8 @@
     items:1,
     margin:0,
     stagePadding:0,
-    smartSpeed:450,
-    autoplay: true
+    smartSpeed:7000,
+    autoplay: true,
+    loop: true
   });
 });
