@@ -15,6 +15,8 @@
     stagePadding:0,
     smartSpeed:7000,
     autoplay: true,
-    loop: true
+    loop: true,
+                               mouseDrag:false,
+                               touchDrag: false,
   });
 });
