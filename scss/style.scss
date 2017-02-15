@@ -213,13 +213,15 @@ body {
     }
 
     &-border-bottom {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      height: 9rem;
-      background: $color-blue;
-      z-index: 2;
+      @media screen and (min-width: $mobile) {
+        position: absolute;
+        top: calc(50% + 31rem);
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: $color-blue;
+        z-index: 2;
+      }
     }
 
     &-content {
@@ -266,7 +268,7 @@ body {
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
-      z-index: 3;
+      z-index: 4;
     }
 
     &-logo {
@@ -338,8 +340,8 @@ body {
     background-repeat: no-repeat;
 
     &_1 {
-      width: 1300px;
-      height: 1100px;
+      width: 1500px;
+      height: 1200px;
       background-image: url('../images/vts-slide-1-small.jpg');
 
       @media screen and (min-height: 1201px) {
@@ -353,12 +355,11 @@ body {
         height: 1800px;
         background-image: url('../images/vts-slide-1.jpg');
       }
-
     }
 
     &_2 {
-      width: 1030px;
-      height: 1400px;
+      width: 1500px;
+      height: 1200px;
       background-image: url('../images/vts-slide-2-small.jpg');
 
       @media screen and (min-height: 1201px) {
@@ -376,7 +377,7 @@ body {
     }
 
     &_3 {
-      width: 1500px;
+      width: 1300px;
       height: 1200px;
       background-image: url('../images/vts-slide-3-small.jpg');
 
@@ -391,12 +392,11 @@ body {
         height: 1800px;
         background-image: url('../images/vts-slide-3.jpg');
       }
-
     }
 
     &_4 {
-      width: 1500px;
-      height: 1200px;
+      width: 1030px;
+      height: 1400px;
       background-image: url('../images/vts-slide-4-small.jpg');
 
       @media screen and (min-height: 1201px) {
@@ -410,11 +410,12 @@ body {
         height: 1800px;
         background-image: url('../images/vts-slide-4.jpg');
       }
+
     }
 
     &_5 {
       width: 1300px;
-      height: 1200px;
+      height: 1100px;
       background-image: url('../images/vts-slide-5-small.jpg');
 
       @media screen and (min-height: 1201px) {
@@ -428,7 +429,9 @@ body {
         height: 1800px;
         background-image: url('../images/vts-slide-5.jpg');
       }
+
     }
+
   }
 }
 
