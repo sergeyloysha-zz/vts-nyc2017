@@ -50,7 +50,7 @@ html {
   min-height: 1200px;
 
   @media screen and (min-width: $mobile) {
-    min-height: 700px;
+    min-height: 940px;
   }
 }
 
@@ -215,7 +215,7 @@ body {
     &-border-bottom {
       @media screen and (min-width: $mobile) {
         position: absolute;
-        top: calc(50% + 31rem);
+        top: calc(50vh + 36rem);
         left: 0;
         right: 0;
         bottom: 0;
@@ -338,6 +338,7 @@ body {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100%;
 
     &_1 {
       width: 1500px;
@@ -353,6 +354,12 @@ body {
       @media screen and (min-width: 1921px) {
         width: 2400px;
         height: 1800px;
+        background-image: url('../images/vts-slide-1.jpg');
+      }
+
+      @media screen and (max-width: $mobile - 1) {
+        width: 940px;
+        height: 705px;
         background-image: url('../images/vts-slide-1.jpg');
       }
     }
@@ -374,6 +381,12 @@ body {
         background-image: url('../images/vts-slide-2.jpg');
       }
 
+      @media screen and (max-width: $mobile - 1) {
+        width: 940px;
+        height: 705px;
+        background-image: url('../images/vts-slide-2.jpg');
+      }
+
     }
 
     &_3 {
@@ -392,6 +405,12 @@ body {
         height: 1800px;
         background-image: url('../images/vts-slide-3.jpg');
       }
+
+      @media screen and (max-width: $mobile - 1) {
+        width: 940px;
+        height: 705px;
+        background-image: url('../images/vts-slide-3.jpg');
+      }
     }
 
     &_4 {
@@ -408,6 +427,12 @@ body {
       @media screen and (min-width: 1921px) {
         width: 2400px;
         height: 1800px;
+        background-image: url('../images/vts-slide-4.jpg');
+      }
+
+      @media screen and (max-width: $mobile - 1) {
+        width: 940px;
+        height: 705px;
         background-image: url('../images/vts-slide-4.jpg');
       }
 
@@ -430,6 +455,12 @@ body {
         background-image: url('../images/vts-slide-5.jpg');
       }
 
+      @media screen and (max-width: $mobile - 1) {
+        width: 940px;
+        height: 705px;
+        background-image: url('../images/vts-slide-5.jpg');
+      }
+
     }
 
   }
@@ -446,43 +477,5 @@ body {
 
   &:hover {
     opacity: .7;
-  }
-}
-
-#banner {
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  position: absolute;
-}
-
-#banner > div {
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  position: absolute;
-}
-
-#banner > div:nth-child(5) {
-  -webkit-animation: wipe 6s infinite;
-  -webkit-animation-delay: 3s;
-  -webkit-animation-direction: alternate;
-  -webkit-mask-size: 2000px 2000px;
-  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom,
-          color-stop(0.00,  rgba(0,0,0,1)),
-          color-stop(0.45,  rgba(0,0,0,1)),
-          color-stop(0.50,  rgba(0,0,0,0)),
-          color-stop(0.55,  rgba(0,0,0,0)),
-          color-stop(1.00,  rgba(0,0,0,0)));
-}
-
-@keyframes wipe {
-  0% {
-    -webkit-mask-position: 0 0;
-  }
-  100% {
-    -webkit-mask-position: -1000px -1000px;
   }
 }
