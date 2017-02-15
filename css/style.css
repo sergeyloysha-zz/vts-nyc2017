@@ -1706,7 +1706,7 @@ html {
   min-height: 1200px; }
   @media screen and (min-width: 940px) {
     html {
-      min-height: 940px; } }
+      min-height: 780px; } }
 
 body {
   font: 400 1.4rem/1.4 "GlacialIndifference", Arial, sans-serif; }
@@ -1860,7 +1860,7 @@ body {
           max-width: 30rem;
           top: 50%;
           right: 10rem;
-          bottom: 9rem; } }
+          bottom: 0; } }
       .vts__info-content h1 {
         font-size: 2.2rem;
         color: #fff;

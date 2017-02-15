@@ -50,7 +50,7 @@ html {
   min-height: 1200px;
 
   @media screen and (min-width: $mobile) {
-    min-height: 940px;
+    min-height: 780px;
   }
 }
 
@@ -237,7 +237,7 @@ body {
         max-width: 30rem;
         top: 50%;
         right: 10rem;
-        bottom: 9rem;
+        bottom: 0;
       }
 
       h1 {
