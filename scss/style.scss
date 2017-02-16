@@ -345,6 +345,12 @@ body {
       height: 1200px;
       background-image: url('../images/vts-slide-1-small.jpg');
 
+      @media screen and (max-width: 1199px) and (max-height: 799px) {
+        width: 600px;
+        height: 800px;
+        background-image: url('../images/vts-slide-1-1200.jpg');
+      }
+
       @media screen and (min-height: 1201px) {
         width: 2400px;
         height: 1800px;
@@ -368,6 +374,12 @@ body {
       width: 1500px;
       height: 1200px;
       background-image: url('../images/vts-slide-2-small.jpg');
+
+      @media screen and (max-width: 1199px) and (max-height: 799px) {
+        width: 600px;
+        height: 800px;
+        background-image: url('../images/vts-slide-2-1200.jpg');
+      }
 
       @media screen and (min-height: 1201px) {
         width: 2400px;
@@ -394,6 +406,12 @@ body {
       height: 1200px;
       background-image: url('../images/vts-slide-3-small.jpg');
 
+      @media screen and (max-width: 1199px) and (max-height: 799px) {
+        width: 600px;
+        height: 800px;
+        background-image: url('../images/vts-slide-3-1200.jpg');
+      }
+
       @media screen and (min-height: 1201px) {
         width: 2400px;
         height: 1800px;
@@ -417,6 +435,12 @@ body {
       width: 1030px;
       height: 1400px;
       background-image: url('../images/vts-slide-4-small.jpg');
+
+      @media screen and (max-width: 1199px) and (max-height: 799px) {
+        width: 600px;
+        height: 800px;
+        background-image: url('../images/vts-slide-4-1200.jpg');
+      }
 
       @media screen and (min-height: 1201px) {
         width: 2400px;
@@ -442,6 +466,12 @@ body {
       width: 1300px;
       height: 1100px;
       background-image: url('../images/vts-slide-5-small.jpg');
+
+      @media screen and (max-width: 1199px) and (max-height: 799px) {
+        width: 600px;
+        height: 800px;
+        background-image: url('../images/vts-slide-5-1200.jpg');
+      }
 
       @media screen and (min-height: 1201px) {
         width: 2400px;
