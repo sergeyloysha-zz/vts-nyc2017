@@ -2,10 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5fd3db-e0d9-47ee-a7cf-e1cb25c47a46" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/fonts/GlacialIndifference-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/fonts/GlacialIndifference-Italic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/fonts/GlacialIndifference-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/hero-corner-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/hero-corner-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/hero-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/hero-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/info-corner-mobile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/info-corner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/popup-close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/slider/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/slider/01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/slider/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/slider/02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/slider/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/slider/03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/slider/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/slider/04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/slider/05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/vts-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/images/vts-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vts-landing/js/app.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="$PROJECT_DIR$/scss/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +53,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="178">
-                  <caret line="517" column="0" lean-forward="true" selection-start-line="517" selection-start-column="0" selection-end-line="517" selection-end-column="0" />
+                <state relative-caret-position="208">
+                  <caret line="519" column="0" lean-forward="true" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -38,11 +63,11 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="734">
-                  <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+                <state relative-caret-position="112">
+                  <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
                   <folding>
-                    <marker date="1487351368000" expanded="true" signature="28025:28062" ph="..." />
-                    <marker date="1487351368000" expanded="true" signature="43149:43632" ph="..." />
+                    <marker date="1487351966000" expanded="true" signature="28025:28062" ph="..." />
+                    <marker date="1487351966000" expanded="true" signature="43149:43324" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -56,7 +81,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="142">
-                  <caret line="54" column="61" lean-forward="false" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+                  <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -80,8 +105,8 @@
       <list>
         <option value="$PROJECT_DIR$/scss/animate.css" />
         <option value="$PROJECT_DIR$/scss/carousel.css" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/scss/style.scss" />
       </list>
     </option>
@@ -242,12 +267,12 @@
       <updated>1487092365766</updated>
       <workItem from="1487092367148" duration="9327000" />
       <workItem from="1487181031789" duration="2710000" />
-      <workItem from="1487338707348" duration="7340000" />
+      <workItem from="1487338707348" duration="7545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19377000" />
+    <option name="totallyTimeSpent" value="19582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="574" width="1920" height="502" extended-state="0" />
@@ -305,8 +330,8 @@
         <state relative-caret-position="300">
           <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
-            <marker date="1487351368000" expanded="true" signature="28025:28062" ph="..." />
-            <marker date="1487351368000" expanded="true" signature="43149:43632" ph="..." />
+            <marker date="1487351966000" expanded="true" signature="28025:28062" ph="..." />
+            <marker date="1487351966000" expanded="true" signature="43149:43324" ph="..." />
           </folding>
         </state>
       </provider>
@@ -348,8 +373,8 @@
         <state relative-caret-position="300">
           <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
-            <marker date="1487351368000" expanded="true" signature="28025:28062" ph="..." />
-            <marker date="1487351368000" expanded="true" signature="43149:43632" ph="..." />
+            <marker date="1487351966000" expanded="true" signature="28025:28062" ph="..." />
+            <marker date="1487351966000" expanded="true" signature="43149:43324" ph="..." />
           </folding>
         </state>
       </provider>
@@ -407,29 +432,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding>
-            <marker date="1487351368000" expanded="true" signature="28025:28062" ph="..." />
-            <marker date="1487351368000" expanded="true" signature="43149:43632" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="54" column="61" lean-forward="false" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+          <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <marker date="1487351966000" expanded="true" signature="28025:28062" ph="..." />
+            <marker date="1487351966000" expanded="true" signature="43149:43324" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="517" column="0" lean-forward="true" selection-start-line="517" selection-start-column="0" selection-end-line="517" selection-end-column="0" />
+        <state relative-caret-position="208">
+          <caret line="519" column="0" lean-forward="true" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
           <folding />
         </state>
       </provider>
