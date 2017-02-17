@@ -2047,3 +2047,51 @@ body {
   transition: opacity 0.25s; }
   .vts-logo:hover {
     opacity: .7; }
+
+.vts__overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(42, 122, 233, 0.8);
+  z-index: 5;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  visibility: hidden;
+  opacity: 0; }
+  .vts__overlay.__active {
+    visibility: visible;
+    opacity: 1; }
+
+.vts__popup {
+  position: relative;
+  background: #fff;
+  border: 10px solid #3db9d7;
+  padding: 40px;
+  max-height: 80%;
+  overflow: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s; }
+  .vts__popup.__active {
+    visibility: visible;
+    opacity: 1; }
+  .vts__popup-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/popup-close.png");
+    background-size: 16px 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: opacity 0.25s; }
+    .vts__popup-close:hover {
+      opacity: .8; }

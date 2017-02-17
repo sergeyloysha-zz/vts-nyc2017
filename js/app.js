@@ -20,9 +20,21 @@
       autoplay: true,
       autoplayTimeout: 10000,
   });
-  //
-  // $('.js-register-now').on('click', function(e) {
-  //   e.preventDefault();
-  //   $('body').append('<div id="eventbee_iframe" frame-eventId="152156034" frame-domain="http://www.eventbee.com" frame-width="800" frame-border="0px solid gray"><script type="text/javascript" language="JavaScript" src="http://www.eventbee.com/home/js/widget/frameHelper.js"></script></div>')
-  // });
+
+    $('.js-popup-open').on('click', function(e) {
+      e.preventDefault();
+
+      $('.js-popup-overlay').addClass('__active');
+      $('.js-popup').addClass('__active');
+
+    });
+
+    $('.js-popup-close').on('click', function(e) {
+      e.preventDefault();
+
+      $('.js-popup-overlay').removeClass('__active');
+      $('.js-popup').removeClass('__active');
+
+    });
+
 });

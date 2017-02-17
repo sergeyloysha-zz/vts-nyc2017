@@ -22,7 +22,7 @@
           </div>
             <div class="vts__hero-dates">Wednesday June 7 - Friday June 9</div>
           <div class="vts__hero-button">
-            <a href="#" class="vts-btn js-register-now">Register Now</a>
+            <a href="#" class="vts-btn js-popup-open">Register Now</a>
           </div>
         </div>
 
@@ -49,9 +49,16 @@
         </div>
       </div>
 
-      <!--<div id="eventbee_iframe" frame-eventId="152156034" frame-domain="http://www.eventbee.com" frame-width="800" frame-border="0px solid gray">-->
-          <!--<script type='text/javascript' language='JavaScript' src='http://www.eventbee.com/home/js/widget/frameHelper.js'></script>-->
-      <!--</div>-->
+      <div class="vts__overlay js-popup-overlay">
+          <div class="vts__popup js-popup">
+              <div class="vts__popup-close js-popup-close"></div>
+              <div class="vts__popup-content">
+                  <div id="eventbee_iframe" frame-eventId="152156034" frame-domain="http://www.eventbee.com" frame-width="800" frame-border="0px solid gray">
+                      <script type='text/javascript' language='JavaScript' src='http://www.eventbee.com/home/js/widget/frameHelper.js'></script>
+                  </div>
+              </div>
+          </div>
+      </div>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
       <script src="js/app.js"></script>
