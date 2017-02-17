@@ -26,6 +26,7 @@
 
       $('.js-popup-overlay').addClass('__active');
       $('.js-popup').addClass('__active');
+      $('.js-popup-content').append('<div id="eventbee_iframe" frame-eventId="152156034" frame-domain="http://www.eventbee.com" frame-width="800" frame-border="0px solid gray"><script type="text/javascript" language="JavaScript" src="http://www.eventbee.com/home/js/widget/frameHelper.js"></script></div>');
 
     });
 
@@ -34,6 +35,7 @@
 
       $('.js-popup-overlay').removeClass('__active');
       $('.js-popup').removeClass('__active');
+      $('.js-popup-content').html('');
 
     });
 
