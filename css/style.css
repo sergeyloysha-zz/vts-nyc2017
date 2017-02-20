@@ -1916,11 +1916,18 @@ body {
   text-align: center;
   background: #FF514E;
   text-decoration: none;
-  transition: background 0.25s; }
+  transition: background 0.25s;
+  cursor: pointer; }
   .vts-btn:hover {
     background: #F44744; }
   .vts-btn:active {
     background: #FF514E; }
+  @media screen and (min-width: 940px) {
+    .vts-btn_mobile {
+      display: none; } }
+  @media screen and (max-width: 939px) {
+    .vts-btn_desktop {
+      display: none; } }
 
 .vts-slider {
   position: relative;

@@ -314,6 +314,7 @@ body {
   background: $color-red;
   text-decoration: none;
   transition: background $timing;
+  cursor: pointer;
 
   &:hover {
     background: #F44744;
@@ -321,6 +322,18 @@ body {
 
   &:active {
     background: $color-red;
+  }
+
+  &_mobile {
+    @media screen and (min-width: $mobile) {
+      display: none;
+    }
+  }
+
+  &_desktop {
+    @media screen and (max-width: $mobile - 1) {
+      display: none;
+    }
   }
 }
 
